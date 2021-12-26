@@ -1,0 +1,733 @@
+@charset "UTF-8";
+/*!
+  Reset Stylesheet
+  Author: yama-dev - https://github.com/yama-dev
+  */
+@import url("https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp.min.css");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, embed, main,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video, source {
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  outline: 0;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font-size: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  vertical-align: baseline;
+  margin: 0;
+  background: transparent;
+  padding: 0;
+  font-size: 100%;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  cursor: help;
+  border-bottom: 1px dotted;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  margin: 1em 0;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  padding: 0;
+  height: 1px;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+button, input, select, textarea, datalist {
+  vertical-align: middle;
+  background-color: transparent;
+  min-height: 1.5em;
+}
+
+input[type="submit"], input[type="reset"] {
+  cursor: pointer;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+}
+
+a[href^='tel'] {
+  display: inline-block;
+  color: inherit;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  content: '.';
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  content: ".";
+}
+
+button,
+input,
+select,
+textarea {
+  background-color: transparent;
+  min-height: 1.5em;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  cursor: pointer;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+}
+
+a[href^="tel"] {
+  display: inline-block;
+  color: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+@media screen and (min-width: 900px) {
+  .is-pc {
+    display: block;
+  }
+  .is-sp {
+    display: none;
+  }
+  .is-pc-inline {
+    display: inline-block;
+  }
+  .is-sp-inline {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .is-pc {
+    display: none;
+  }
+  .is-sp {
+    display: block;
+  }
+  .is-pc-inline {
+    display: none;
+  }
+  .is-sp-inline {
+    display: inline-block;
+  }
+}
+
+.is-ie {
+  display: none;
+}
+
+@media (-ms-high-contrast: none) {
+  .is-ie {
+    display: block;
+  }
+  .is-not-ie {
+    display: none;
+  }
+}
+
+/*!
+  Styles
+  */
+img {
+  display: block;
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+main {
+  display: block;
+}
+
+.color1 {
+  color: #414447;
+}
+
+/* 
+	メニュー、タイトルなどの文字色
+*/
+.color2, .color2 a {
+  color: #414447;
+}
+
+#head_menu_area h2.color2, #head_menu_area h2.color2 a {
+  color: #ffffff;
+}
+
+.disc_track h4.color2 {
+  color: #2c3033;
+}
+
+/* 
+	外部リンクボタン文字色
+*/
+.color3, .color3 a {
+  color: #fff;
+}
+
+/* 
+	フッター文字色
+*/
+.color4 {
+  color: #8c8c8c;
+}
+
+/* 
+	メニュー、タイトルなどの背景色
+*/
+.bgcolor2 {
+  background-color: #fff;
+}
+
+.disc_track h4.bgcolor2 {
+  background-color: #e3e3e3;
+}
+
+/* 
+	外部リンクボタン背景色
+*/
+.bgcolor3 {
+  background-color: #0E61BF;
+}
+
+/* 
+	メニューボタンOFF時の背景色
+*/
+.bgcolor5 {
+  background-color: #BFBFBF;
+}
+
+/* テキスト入りリンクバナーの下ボーダー色*/
+.bgcolor6 {
+  background-color: #0E61BF;
+}
+
+/* メニューのボーダー色*/
+.border2 {
+  border-color: #e3e3e3;
+}
+
+#head_menu_area.border2 {
+  border-color: #A4A4A4;
+}
+
+/* フッターのボーダー色*/
+.border4 {
+  border-width: 0;
+}
+
+.arrow_wrap, .arrow_wrap a {
+  display: table;
+  width: 100%;
+}
+
+.arrow_contents, .arrow {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.arrow {
+  padding-left: 15px;
+  width: 5px;
+}
+
+.arrow img {
+  vertical-align: middle;
+}
+
+hr {
+  display: block;
+  margin: 1em 0;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  padding: 0;
+  height: 1px;
+}
+
+input, select {
+  vertical-align: top;
+}
+
+.nav_txt {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.kome {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+#contentsCaption {
+  background: #a4a4a4;
+  padding-left: 20px;
+  height: 41px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 41px;
+}
+
+.aipBtnMoreL {
+  position: relative;
+  cursor: pointer;
+  height: 45px;
+  font-size: 11px;
+  line-height: 45px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 1;
+}
+
+h1.resize {
+  visibility: hidden;
+}
+
+h1.small {
+  padding: 7px 10px 6px;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.over h1.small {
+  margin: 7px 0 6px 10px;
+  padding: 0;
+  height: 32px;
+  overflow: hidden;
+}
+
+.dot {
+  float: right;
+  margin: 11px 8px 0 0;
+}
+
+h1 div {
+  display: table;
+  width: 255px;
+  height: 22px;
+}
+
+h1 p {
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 0;
+}
+
+h1 p img {
+  max-width: 255px;
+  max-height: 22px;
+}
+
+.subCaption {
+  position: relative;
+  margin-top: 30px;
+  background: #E6E6E6;
+  padding-left: 10px;
+  height: 35px;
+  color: #444546;
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.subCaption .more {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  height: 35px;
+  color: #444546;
+  font-size: 12px;
+  line-height: 35px;
+}
+
+.subCaption .more span {
+  margin-left: 6px;
+  color: #A5A5A5;
+}
+
+#nothingItems {
+  padding: 70px 15px;
+  text-align: center;
+}
+
+#head_menu_btn {
+  display: table-cell;
+  vertical-align: middle;
+  border-top: 1px solid #bfbfbf;
+  background-color: #bfbfbf;
+  width: 90px;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+}
+
+#head_menu_btn.open {
+  background-color: #fff;
+  color: #414447;
+}
+
+#head_menu_area img {
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
+
+#head_menu_area h2 img {
+  margin-bottom: 4px;
+}
+
+#head_nav_wrap {
+  -webkit-transition: height 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  display: none;
+  position: absolute;
+  left: 0;
+  z-index: 10001;
+  transition: height 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+#head_nav_wrap nav ul {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #E3E3E3;
+}
+
+#smojFloatPlayerArea {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 500;
+  width: 100%;
+  height: 100%;
+}
+
+#smojFloatBg {
+  -moz-opacity: 0.8;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  background: #FFF;
+  width: 100%;
+  height: 100%;
+}
+
+#smojFloatPlayer {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+#smojFloatPlayerArea .bc_TitleDisplay {
+  position: fixed !important;
+  top: 0px;
+  left: 0px;
+  width: 535px;
+  height: 35px;
+  overflow: hidden;
+  color: #444546;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#btnFloatClose {
+  position: fixed !important;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  cursor: pointer;
+  width: 74px;
+  height: 21px;
+  overflow: hidden;
+}
+
+#btnFloatClose:hover img {
+  margin-top: -21px;
+}
+
+#moreLoading {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -15px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+
+#btnFloatPrev {
+  position: absolute;
+  top: 50%;
+  left: -60px;
+  cursor: pointer;
+  margin-top: -20px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+#btnFloatPrev:hover img, #btnFloatNext:hover img {
+  margin-top: -40px;
+}
+
+#btnFloatNext {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  cursor: pointer;
+  margin-top: -20px;
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.lmark {
+  margin-top: 5px;
+  text-align: right;
+}
+
+#smojFloatPlayer .lmark {
+  position: absolute;
+  right: 0px;
+  bottom: -117px;
+}
+
+#smojFloatPlayer .movieComment {
+  margin-top: 8px;
+}
+
+.image_adjust, .over_adjust {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  opacity: 0;
+}
+
+button, input, select, textarea {
+  background-color: transparent;
+  min-height: 1.5em;
+}
+
+input[type="submit"], input[type="reset"] {
+  cursor: pointer;
+}
+
+.bgcolor2 {
+  background-color: #333333 !important;
+}
+
+.color1 {
+  color: #ffffff !important;
+}
+
+.color2, .color2 a {
+  color: #ffffff  !important;
+}
+
+.fsize10 {
+  font-size: 10px;
+}
+
+.fsize11 {
+  font-size: 11px;
+}
+
+.fsize12 {
+  font-size: 12px;
+}
+
+.fsize13 {
+  font-size: 13px;
+}
+
+.fsize14 {
+  font-size: 14px;
+}
+
+.fsize15 {
+  font-size: 15px;
+}
+
+.fsize16 {
+  font-size: 16px;
+}
+
+.fsize17 {
+  font-size: 17px;
+}
+
+.fsize18 {
+  font-size: 18px;
+}
+
+.fsize19 {
+  font-size: 19px;
+}
+
+.fsize20 {
+  font-size: 20px;
+}
+
+.fsize21 {
+  font-size: 21px;
+}
+
+.fsize22 {
+  font-size: 22px;
+}
+
+.fsize23 {
+  font-size: 23px;
+}
+
+.fsize24 {
+  font-size: 24px;
+}
+
+.fsize26 {
+  font-size: 25px;
+}
+
+.fsize27 {
+  font-size: 26px;
+}
+
+.lh11 {
+  line-height: 1.1em;
+}
+
+.lh12 {
+  line-height: 1.2em;
+}
+
+.lh13 {
+  line-height: 1.3em;
+}
+
+.lh14 {
+  line-height: 1.4em;
+}
+
+.lh15 {
+  line-height: 1.5em;
+}
+
+.lh16 {
+  line-height: 1.6em;
+}
+
+.lh17 {
+  line-height: 1.7em;
+}
+
+.lh18 {
+  line-height: 1.8em;
+}
+
+.lh19 {
+  line-height: 1.9em;
+}
+
+.lh20 {
+  line-height: 2.0em;
+}
