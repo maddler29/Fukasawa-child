@@ -449,6 +449,10 @@ body.is-menu-open {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
+
+  .c-logo img {
+    border-radius: 50%;
+  }
 }
 
 @media screen and (min-width: 900px) and (-ms-high-contrast: none) {

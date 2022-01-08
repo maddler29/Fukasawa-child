@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>-child/style.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>-child/common.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>-child/top.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>-child/aip_responsive.css">
 
   <title>アンケートサイト</title>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -25,7 +26,9 @@
             <div class="c-header is-pc">
               <header class="c-logo is-pc">
                 <h1 class="c-logo is-pc">
-                  <a class="c-logo__link" href="./">Jayeblue</a>
+                  <a class="c-logo__link" href="./">
+                    <img src="<?php echo get_template_directory_uri(); ?>-child/assets/img/unnamed.jpg">
+                  </a>
                 </h1>
               </header>
               <nav class="c-pcNav is-pc">
@@ -55,7 +58,7 @@
                     <a class="c-pcNav__list-link" href="https://www.youtube.com/channel/UCBNVZPlWoR7oArfzJNrK9yw" target="_blank"><span>MOVIE</span></a>
                   </li>
                   <li class="c-pcNav__list-item">
-                    <a class="c-pcNav__list-link" href="<?php echo get_template_directory_uri(); ?>-child/contact-page.php/"><span>アンケート</span></a>
+                    <a class="c-pcNav__list-link" href="<?php echo get_template_directory_uri(); ?>-child/contact"><span>アンケート</span></a>
                   </li>
                   <li class="c-pcNav__list-item">
                     <a class="c-pcNav__list-link" href="#" target="_blank"><span>MEMBERS</span></a>

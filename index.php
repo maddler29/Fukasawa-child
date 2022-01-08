@@ -25,6 +25,7 @@
             <div class="c-header is-pc">
               <header class="c-logo is-pc">
                 <h1 class="c-logo is-pc">
+                  <img src="/assets/img/unnamed.jpg">
                   <a class="c-logo__link" href="./">Jayeblue</a>
                 </h1>
               </header>
@@ -48,7 +49,7 @@
                   <li class="c-pcNav__list-item">
                     <a class="c-pcNav__list-link" href="http://va.lnk.to/mX1S6N" target="_blank"><span>STREAMING</span></a>
                   </li>
-                  <li class="c-pcNav__list-item">
+                  <li class="c-pcNav__list-ƒitem">
                     <a class="c-pcNav__list-link" href="./media/"><span>MEDIA</span></a>
                   </li>
                   <li class="c-pcNav__list-item">
