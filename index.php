@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>-child/style.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>-child/common.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>-child/top.css">
+  
 
   <title>アンケートサイト</title>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />

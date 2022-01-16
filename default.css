@@ -169,7 +169,7 @@ section {
   display: block;
 }
 
-@media screen and (min-width: 900px) {
+/* @media screen and (min-width: 900px) {
   .is-pc {
     display: block;
   }
@@ -182,27 +182,61 @@ section {
   .is-sp-inline {
     display: none;
   }
-}
-
-@media screen and (max-width: 899px) {
+} */
+/* ここから */
+@media (max-width: 670px) {
   .is-pc {
-    display: none;
-  }
+    /* display: none; */
+    margin-left: 100px;
+  } 
   .is-sp {
     display: block;
   }
-  .is-pc-inline {
+  /* .is-pc-inline {
     display: none;
-  }
+  } */
   .is-sp-inline {
     display: inline-block;
   }
 }
 
+/* .is-ie {
+  display: none;
+}
+ */
+/* @media (min-width: 00px) {
+  .is-pc {
+    display: block;
+  }
+  .is-sp {
+    display: none;
+  }
+  .is-pc-inline {
+    display: inline-block;
+  }
+  .is-sp-inline {
+    display: none;
+  }
+} */
+
+@media (max-width: 670px) {
+  /* .is-pc {
+    display: none;
+  } */
+  .is-sp {
+    /* display: block; */
+  }
+  /* .is-pc-inline {
+    display: none;
+  } */
+  .is-sp-inline {
+    display: inline-block;
+  }
+}
+/* まで */
 .is-ie {
   display: none;
 }
-
 @media (-ms-high-contrast: none) {
   .is-ie {
     display: block;
