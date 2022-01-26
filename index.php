@@ -30,6 +30,7 @@
                   <a class="c-logo__link" href="./">Jayeblue</a>
                 </h1>
               </header>
+              
               <nav class="c-pcNav is-pc">
                 <ul class="c-pcNav__list">
                   <li class="c-pcNav__list-item">
@@ -64,6 +65,7 @@
                   </li>
                 </ul>
               </nav>
+              
             </div>
           </div>
           <div class="p-hero__count">

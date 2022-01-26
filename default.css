@@ -187,10 +187,10 @@ section {
 @media (max-width: 670px) {
   .is-pc {
     /* display: none; */
-    margin-left: 100px;
+    margin-left: 65px;
   } 
   .is-sp {
-    display: block;
+    display: none;
   }
   /* .is-pc-inline {
     display: none;

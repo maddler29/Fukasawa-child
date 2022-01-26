@@ -12,6 +12,14 @@
           <div class="p-hero__count">
             <div class="p-hero__center">
               <figure class="p-hero__mainVisual">
+                <div class="menu-trigger"> 
+                  <a href="#top-nav" for="Hamburger" class="open">🍔</a>
+                </div>
+              <!-- <label for="Hamburger" class="return"></label> -->
+                <nav id="top-nav" class="nav-menu">
+                  <a href="#!" for="Hamburger" class="menu-close">×</a>
+                  <?php get_sidebar(); ?>
+                </nav>
                 <img class="is-pc" src="<?php echo get_template_directory_uri(); ?>-child/assets/img/jayeblue_pc_top.png">
               </figure>
             </div>

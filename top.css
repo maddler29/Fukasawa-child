@@ -1863,7 +1863,7 @@ h1 {
 
 /* @media screen and (min-width: 900px) { */
    .p-hero__center {
-    margin: 0 0px 0 00px;
+    /* margin: 0 0px 0 00px; */
     height: 100%;
     width: 100%;
     
