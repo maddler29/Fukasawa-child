@@ -7,6 +7,15 @@
         </a>
       </h1>
     </header>
+    <!-- 追加 -->
+    <!-- <input id="Hamburger" type="checkbox">
+              <label for="Hamburger" class="open">🍔</label>
+              <label for="Hamburger" class="return"></label> -->
+
+  <!-- sidemenu -->
+  <section class="sidemenu">
+    <!-- <label for="Hamburger" class="close">×</label> -->
+ 
     <nav class="c-pcNav is-pc">
       <ul class="c-pcNav__list">
         <li class="c-pcNav__list-item">
@@ -41,5 +50,6 @@
         </li>
       </ul>
     </nav>
+  </section>
   </div>
 </div>
