@@ -7,24 +7,85 @@
 @import url("https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp.min.css");
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body, div, span, object, iframe, embed, main,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, u, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video, source {
+html,
+body,
+div,
+span,
+object,
+iframe,
+embed,
+main,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+source {
   vertical-align: baseline;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   outline: 0;
   border: 0;
@@ -33,17 +94,30 @@ time, mark, audio, video, source {
   font-size: 100%;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
@@ -72,7 +146,8 @@ del {
   text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
+abbr[title],
+dfn[title] {
   cursor: help;
   border-bottom: 1px dotted;
 }
@@ -91,17 +166,24 @@ hr {
   height: 1px;
 }
 
-ol, ul, li {
+ol,
+ul,
+li {
   list-style: none;
 }
 
-button, input, select, textarea, datalist {
+button,
+input,
+select,
+textarea,
+datalist {
   vertical-align: middle;
   background-color: transparent;
   min-height: 1.5em;
 }
 
-input[type="submit"], input[type="reset"] {
+input[type="submit"],
+input[type="reset"] {
   cursor: pointer;
 }
 
@@ -109,7 +191,7 @@ input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0px 1000px transparent inset;
 }
 
-a[href^='tel'] {
+a[href^="tel"] {
   display: inline-block;
   color: inherit;
 }
@@ -119,7 +201,7 @@ a[href^='tel'] {
   clear: both;
   visibility: hidden;
   height: 0;
-  content: '.';
+  content: ".";
 }
 
 .clearfix:after {
@@ -187,8 +269,8 @@ section {
 @media (max-width: 670px) {
   .is-pc {
     /* display: none; */
-    margin-left: 65px;
-  } 
+    /* margin-left: 65px; */
+  }
   .is-sp {
     display: none;
   }
@@ -271,11 +353,13 @@ main {
 /* 
 	メニュー、タイトルなどの文字色
 */
-.color2, .color2 a {
+.color2,
+.color2 a {
   color: #414447;
 }
 
-#head_menu_area h2.color2, #head_menu_area h2.color2 a {
+#head_menu_area h2.color2,
+#head_menu_area h2.color2 a {
   color: #ffffff;
 }
 
@@ -286,7 +370,8 @@ main {
 /* 
 	外部リンクボタン文字色
 */
-.color3, .color3 a {
+.color3,
+.color3 a {
   color: #fff;
 }
 
@@ -312,19 +397,19 @@ main {
 	外部リンクボタン背景色
 */
 .bgcolor3 {
-  background-color: #0E61BF;
+  background-color: #0e61bf;
 }
 
 /* 
 	メニューボタンOFF時の背景色
 */
 .bgcolor5 {
-  background-color: #BFBFBF;
+  background-color: #bfbfbf;
 }
 
 /* テキスト入りリンクバナーの下ボーダー色*/
 .bgcolor6 {
-  background-color: #0E61BF;
+  background-color: #0e61bf;
 }
 
 /* メニューのボーダー色*/
@@ -333,7 +418,7 @@ main {
 }
 
 #head_menu_area.border2 {
-  border-color: #A4A4A4;
+  border-color: #a4a4a4;
 }
 
 /* フッターのボーダー色*/
@@ -341,12 +426,14 @@ main {
   border-width: 0;
 }
 
-.arrow_wrap, .arrow_wrap a {
+.arrow_wrap,
+.arrow_wrap a {
   display: table;
   width: 100%;
 }
 
-.arrow_contents, .arrow {
+.arrow_contents,
+.arrow {
   display: table-cell;
   vertical-align: middle;
 }
@@ -369,7 +456,8 @@ hr {
   height: 1px;
 }
 
-input, select {
+input,
+select {
   vertical-align: top;
 }
 
@@ -449,7 +537,7 @@ h1 p img {
 .subCaption {
   position: relative;
   margin-top: 30px;
-  background: #E6E6E6;
+  background: #e6e6e6;
   padding-left: 10px;
   height: 35px;
   color: #444546;
@@ -469,7 +557,7 @@ h1 p img {
 
 .subCaption .more span {
   margin-left: 6px;
-  color: #A5A5A5;
+  color: #a5a5a5;
 }
 
 #nothingItems {
@@ -517,7 +605,7 @@ h1 p img {
 #head_nav_wrap nav ul {
   border-top-width: 1px;
   border-top-style: solid;
-  border-top-color: #E3E3E3;
+  border-top-color: #e3e3e3;
 }
 
 #smojFloatPlayerArea {
@@ -537,7 +625,7 @@ h1 p img {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   opacity: 0.8;
   filter: alpha(opacity=80);
-  background: #FFF;
+  background: #fff;
   width: 100%;
   height: 100%;
 }
@@ -601,7 +689,8 @@ h1 p img {
   overflow: hidden;
 }
 
-#btnFloatPrev:hover img, #btnFloatNext:hover img {
+#btnFloatPrev:hover img,
+#btnFloatNext:hover img {
   margin-top: -40px;
 }
 
@@ -632,17 +721,22 @@ h1 p img {
   margin-top: 8px;
 }
 
-.image_adjust, .over_adjust {
+.image_adjust,
+.over_adjust {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   opacity: 0;
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   background-color: transparent;
   min-height: 1.5em;
 }
 
-input[type="submit"], input[type="reset"] {
+input[type="submit"],
+input[type="reset"] {
   cursor: pointer;
 }
 
@@ -654,8 +748,9 @@ input[type="submit"], input[type="reset"] {
   color: #ffffff !important;
 }
 
-.color2, .color2 a {
-  color: #ffffff  !important;
+.color2,
+.color2 a {
+  color: #ffffff !important;
 }
 
 .fsize10 {
@@ -763,5 +858,5 @@ input[type="submit"], input[type="reset"] {
 }
 
 .lh20 {
-  line-height: 2.0em;
+  line-height: 2em;
 }

@@ -1819,8 +1819,8 @@
 
   /* @media screen and (min-width: 900px) { */
   .p-hero__inner {
-    padding-top: 32px;
-    width: 70%;
+    /* padding-top: 32px; */
+    width: auto;
     height: 100%;
   }
   /* } */
@@ -2142,7 +2142,7 @@
 
   /* @media screen and (min-width: 900px) { */
   .l-section__inner {
-    padding: 0 0 0 5%;
+    /* padding: 0 0 0 5%; */
   }
   /* } */
 
@@ -2164,6 +2164,10 @@
 
   .l-section__cont {
     position: relative;
+  }
+
+  ul#news_list {
+    margin-right: 1.5em;
   }
 
   .p-news {

@@ -1,7 +1,5 @@
 /* 477,1232行目でナビメニュー消去切り替え */
 
-
-
 @charset "UTF-8";
 @media screen and (min-width: 900px) {
   .l-pc-inner {
@@ -10,20 +8,42 @@
     max-width: 1300px;
   }
   /* ハンバーガー非表示 */
-  .open, .close {
+  .open,
+  .close {
     display: none;
   }
-  input[type=checkbox] {
+  input[type="checkbox"] {
     position: absolute;
     left: -50vw;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after {
+    display: none;
+  }
+  .swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after {
+    display: none;
   }
 }
 
 @media screen and (max-width: 899px) {
   .l-sp-inner {
     margin: 0 auto;
-    width: 89.3%;
-    max-width: 550px;
+    /* width: 89.3%;
+    max-width: 550px; */
+  }
+  .c-pcNav {
+    display: none;
+  }
+
+  #menu-btn-check {
+    display: none;
+  }
+  .c-logo__link {
+    display: none;
   }
 }
 
@@ -487,7 +507,7 @@ body.is-menu-open {
   }
   .c-pcNav__list-item + .c-pcNav__list-item {
     display: block;
-    margin-top: 4.5px; 
+    margin-top: 4.5px;
     /* position: absolute;
   top: 0;
   left: -250px;
@@ -503,9 +523,7 @@ body.is-menu-open {
     padding: 7px 10px 7px 5px;
     font-weight: 400;
   }
-  
 }
-
 
 @media screen and (min-width: 900px) and (-ms-high-contrast: none) {
   .c-pcNav__list-link {
@@ -765,7 +783,6 @@ body.is-load .c-footer {
   }
 }
 
-
 /* ここから追加分 */
 
 @media screen and (min-width: 900px) {
@@ -779,8 +796,8 @@ body.is-load .c-footer {
 @media screen and (max-width: 899px) {
   .l-sp-inner {
     margin: 0 auto;
-    width: 89.3%;
-    max-width: 550px;
+    /* width: 89.3%;
+    max-width: 550px; */
   }
 }
 
@@ -1242,6 +1259,7 @@ body.is-menu-open {
     font-weight: 700;
     letter-spacing: 0.06em;
   }
+
   /* .c-pcNav__list-item + .c-pcNav__list-item {
     margin-top: 4.5px;
     display: none;
@@ -1265,35 +1283,44 @@ body.is-menu-open {
    }
   
    */
-  .nav-menu:not(:target){
+
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after {
+    display: block;
+  }
+  .swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after {
+    display: block;
+  }
+  .nav-menu:not(:target) {
     opacity: 0;
     visibility: hidden;
     transition: 1s;
   }
-  
-  .nav-menu:target{
+
+  .nav-menu:target {
     opacity: 1;
     visibility: visible;
     transition: 1s;
   }
-  
-  .menu-close{
+
+  .menu-close {
     position: absolute;
     top: 0;
     right: 0;
   }
-  .menu-trigger{
+  .menu-trigger {
     position: relative;
     z-index: 2;
   }
-  .nav-menu{
+  .nav-menu {
     z-index: 3;
     position: absolute;
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: .8;
-    transition: .2s;
+    opacity: 0.8;
+    transition: 0.2s;
   }
   .c-pcNav__list-link {
     /* display: none;
@@ -1301,7 +1328,7 @@ body.is-menu-open {
     transition: opacity 0.5s ease-out;
     padding: 7px 10px 7px 5px;
     font-weight: 400; */
-  } 
+  }
 }
 
 @media screen and (max-width: 680px) and (-ms-high-contrast: none) {
