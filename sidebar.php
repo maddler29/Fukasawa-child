@@ -43,7 +43,7 @@
           <a class="c-pcNav__list-link" href="https://www.youtube.com/channel/UCBNVZPlWoR7oArfzJNrK9yw" target="_blank"><span>MOVIE</span></a>
         </li>
         <li class="c-pcNav__list-item">
-          <a class="c-pcNav__list-link" href="<?php echo get_template_directory_uri(); ?>-child/contact"><span>アンケート</span></a>
+          <a class="c-pcNav__list-link" href="<?php echo home_url('contact'); ?>"><span>SURVEY</span></a>
         </li>
         <li class="c-pcNav__list-item">
           <a class="c-pcNav__list-link" href="#" target="_blank"><span>MEMBERS</span></a>
