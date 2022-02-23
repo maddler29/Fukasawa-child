@@ -1,0 +1,17 @@
+<dl class="contact7">
+
+<dt>NAME<span class="must">必須</span></dt>
+<dd>[text* your-name placeholder"NAME"]</dd>
+
+<dt>MAIL<span class="must">必須</span></dt>
+<dd>[email*  your-email placeholder"abcd@example.jp"]</dd>
+
+<dt>Apps Used Often<span class="optional">任意</span></dt>
+<dd>[tel your-tel placeholder"Apps Name"]</dd>
+
+<dt>COMMENTS<span class="optional">任意</span></dt>
+<dd>[textarea your-message placeholder"A Quick Comment from You, Please"]</dd>
+</dl>
+
+[acceptance accept-this] 個人情報の取扱いに同意の上、送信します。[/acceptance]
+<p class="btn_contact7">[submit "SEND"]</p>
