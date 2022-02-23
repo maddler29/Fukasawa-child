@@ -3,3 +3,83 @@ Theme Name:Fukasawa-child
 Version: 2.0.5
 Template: fukasawa
 */
+
+
+/*=====================
+ Contact Form7
+ ===================== */
+ .contact7 {
+	max-width: 100%;
+	box-sizing: border-box;
+}
+.contact7 dd {
+	margin: 0 0 35px 0;
+	border-bottom: 1px solid #999;
+
+}
+.contact7 dt {
+	font-weight: normal;
+    font-family: YakuHanJP,"游ゴシック", YuGothic, "Helvetica", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+	margin: 0 0 5px 0;
+}
+
+.contact7 g {
+	text-align: center;
+}
+
+/* 必須マーク */
+.contact7 .must {
+	background: #FF1A00;
+}
+ 
+/* 任意マーク */
+.contact7 .optional {
+	background: #999;
+}
+ 
+.contact7 .must,
+.contact7 .optional {
+	color: #FFF;
+	border-radius: 3px;
+	font-size: 10px;
+	margin-left: 10px;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+}
+.btn_contact7 {
+	text-align: center;
+}
+.btn_contact7 input {
+	width: 70%;
+	background-color: #005513;
+	color: #FFF;
+	font-size: 1.1em;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	border: 1px solid #005513;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-ms-transition: 0.3s;
+	transition: 0.3s;	
+}
+.btn_contact7 input:hover {
+	background-color: #FFF;
+	color: #005513; 
+}
+
+@media screen and (min-width: 900px){
+.contact7 dd {
+	margin: 0 auto;
+	margin-bottom:35px;
+	border-bottom: 1px solid #999;
+    width: 77.5%;
+}
+.contact7 dt {
+	margin: 0 auto;
+	width: 77.5%;
+}
+}

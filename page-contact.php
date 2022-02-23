@@ -11,6 +11,15 @@
           <?php get_sidebar(); ?>
         </div>
       </div>
+
+      <section class="contact l-in-section l-sp-inner">
+        <div class="l-in-section__title">
+          <h1><span>SURVEY</span></h1>
+        </div>
+        
+        <?php echo do_shortcode('[contact-form-7 id="50" title="contactform_adv"]'); ?>
+      </section>
+
       <section class="contact l-in-section l-sp-inner">
         <div class="l-in-section__title">
           <h2><span>CONTACT</span></h2>
