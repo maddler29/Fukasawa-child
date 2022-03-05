@@ -1,17 +1,71 @@
+◆タブ：フォーム
 <dl class="contact7">
-
-<dt>NAME<span class="must">必須</span></dt>
 <dd>[text* your-name placeholder"NAME"]</dd>
-
-<dt>MAIL<span class="must">必須</span></dt>
-<dd>[email*  your-email placeholder"abcd@example.jp"]</dd>
-
-<dt>Apps Used Often<span class="optional">任意</span></dt>
-<dd>[tel your-tel placeholder"Apps Name"]</dd>
-
-<dt>COMMENTS<span class="optional">任意</span></dt>
-<dd>[textarea your-message placeholder"A Quick Comment from You, Please"]</dd>
+<dd>[email* your-email placeholder"abcd@example.jp"]</dd>
+<dd>[text your-gender placeholder"GENDER"]</dd>
+<dd>[text your-nationality placeholder"NATIONALITY"]</dd>
+<dd>[text your-apps placeholder"Apps Name"]</dd>
+<dd>[textarea your-comments placeholder"COMMENTS"]</dd>
+<dt class="accept-this">[acceptance accept-this] 個人情報の取扱いに同意の上、送信します。[/acceptance]</dt>
+[response]
+<p class="btn_contact7">[submit "SEND"]</p>
 </dl>
 
-[acceptance accept-this] 個人情報の取扱いに同意の上、送信します。[/acceptance]
-<p class="btn_contact7">[submit "SEND"]</p>
+
+◆タブ：メール
+メール
+送信先：
+<受け取りたいメールアドレス>
+
+送信元：
+[your-name]<送信元としたいアドレス>
+
+題名：
+アンケートが届いています[_date]
+
+追加ヘッダー：
+Reply-To: [your-email]
+
+メッセージ本文：
+差出人: [your-name] <[your-email]>
+性　別：[your-gender]
+国　籍：[your-nationality]
+アプリ：[your-apps]
+
+メッセージ本文:
+[your-comments]
+
+
+
+＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋＋
+メール (2)
+ ※メール (2) を使用にチェックを入れる
+
+
+送信先
+[your-email]
+
+送信元
+[your-name]<送信元としたいアドレス>
+
+題名
+アンケート送付ありがとうございます。
+
+追加ヘッダー
+Re: [_site_admin_email]
+
+メッセージ本文	
+Thank you for your message.
+I'm glad to got it.
+
+アンケートへの回答ありがとうございます。
+頂いたコメント大切にします。
+
+-- 
+このメールは [_site_title]のお問い合わせフォームから送信されました
+
+
+
+◆タブ：メッセージ
+◆タブ：その他設定
+初期設定のまま
