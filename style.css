@@ -4,39 +4,49 @@ Version: 2.0.5
 Template: fukasawa
 */
 
-
 /*=====================
  Contact Form7
  ===================== */
  .contact7 {
 	max-width: 100%;
+	font-family: YakuHanJP,"游ゴシック", YuGothic, "Helvetica", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Arial, sans-serif;
 	box-sizing: border-box;
 }
-.contact7 dd {
-	margin: 0 0 35px 0;
-	border-bottom: 1px solid #999;
 
-}
 .contact7 dt {
 	font-weight: normal;
-    font-family: YakuHanJP,"游ゴシック", YuGothic, "Helvetica", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 1000;
     line-height: 1.5;
 	margin: 0 0 5px 0;
 }
 
-.contact7 g {
-	text-align: center;
+/* 入力枠 */.contact7 dd {
+	margin: 0 0 35px 0;
+	border-bottom: 1px solid #999;
+}
+.contact7 input[name="your-name"],
+.contact7 input[name="your-email"],
+.contact7 input[name="your-gender"],
+.contact7 input[name="your-nationality"],
+.contact7 input[name="your-apps"]{
+	border: none;
+	font-family: YakuHanJP,"游ゴシック", YuGothic, "Helvetica", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Arial, sans-serif;
+	font-size: 20px;
+	width: 100%;
 }
 
-/* 必須マーク */
-.contact7 .must {
+.contact7 textarea[name="your-comments"]{
+	border: none;
+	font-family: YakuHanJP,"游ゴシック", YuGothic, "Helvetica", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Arial, sans-serif;
+	font-size: 20px;
+	width: 100%;
+}
+
+/* 必須マーク */ .contact7 .must {
 	background: #FF1A00;
 }
- 
-/* 任意マーク */
-.contact7 .optional {
+/* 任意マーク */ .contact7 .optional {
 	background: #999;
 }
  
@@ -44,22 +54,29 @@ Template: fukasawa
 .contact7 .optional {
 	color: #FFF;
 	border-radius: 3px;
-	font-size: 10px;
+	font-size: 11px;
 	margin-left: 10px;
 	padding: 5px 10px;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 }
+
+.contact7 .wpcf7-list-item-label {
+	margin-left: auto;
+    margin-right: auto;
+}
+
 .btn_contact7 {
-	text-align: center;
+	text-align: right;
 }
 .btn_contact7 input {
 	width: 70%;
-	background-color: #005513;
+	border-radius: 100vh;
+	background-color: #019EBD;
 	color: #FFF;
-	font-size: 1.1em;
+	font-size: 1.4em;
 	font-weight: bold;
 	letter-spacing: 0.2em;
-	border: 1px solid #005513;
+	border: 1px solid #019EBD;
 	-webkit-transition: 0.3s;
 	-moz-transition: 0.3s;
 	-o-transition: 0.3s;
@@ -68,7 +85,7 @@ Template: fukasawa
 }
 .btn_contact7 input:hover {
 	background-color: #FFF;
-	color: #005513; 
+	color: #019EBD; 
 }
 
 @media screen and (min-width: 900px){
@@ -79,6 +96,10 @@ Template: fukasawa
     width: 77.5%;
 }
 .contact7 dt {
+	margin: 0 auto;
+	width: 77.5%;
+}
+.btn_contact7 {
 	margin: 0 auto;
 	width: 77.5%;
 }
