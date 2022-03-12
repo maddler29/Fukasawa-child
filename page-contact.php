@@ -16,8 +16,8 @@
         <div class="l-in-section__title">
           <h1><span>SURVEY</span></h1>
         </div>
-        
-        <?php echo do_shortcode('[contact-form-7 id="50" title="contactform_adv"]'); ?>
+
+        <?php echo do_shortcode('[contact-form-7 id="33" title="コンタクトフォーム 1"]'); ?>
       </section>
 
       <section class="contact l-in-section l-sp-inner">
