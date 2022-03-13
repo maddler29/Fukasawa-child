@@ -81,7 +81,9 @@ Template: fukasawa
 	-moz-transition: 0.3s;
 	-o-transition: 0.3s;
 	-ms-transition: 0.3s;
-	transition: 0.3s;	
+	transition: 0.3s;
+margin-top: 5px;	
+	margin-bottom: 20px;	
 }
 .btn_contact7 input:hover {
 	background-color: #FFF;

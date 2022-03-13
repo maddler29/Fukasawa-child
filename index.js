@@ -31,7 +31,7 @@ function onYouTubeIframeAPIReady() {
 }
 
 function onPlayerReady(event) {
-  event.target.mute();
+  // event.target.mute();
   event.target.playVideo();
 }
 
@@ -58,7 +58,7 @@ swiper.on("transitionEnd", function () {
   var slideVideoId = slideVideo.getAttribute("id");
 
   if (slideVideo != null || slideVideo != undefined) {
-    yt[slideVideoId].mute();
+    // yt[slideVideoId].mute();
     yt[slideVideoId].playVideo();
   }
 });

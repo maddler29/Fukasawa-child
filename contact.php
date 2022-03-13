@@ -9,12 +9,40 @@
       <div class="l-main">
         <div class="p-hero__inner">
           <?php get_sidebar(); ?>
+          <div class="hamburger-menu">
+            <input type="checkbox" id="menu-btn-check">
+            <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            <!--ここからメニュー-->
+            <div class="menu-content">
+              <ul>
+                <li>
+                  <a href="#">メニューリンク1</a>
+                </li>
+                <li>
+                  <a href="#">メニューリンク2</a>
+                </li>
+                <li>
+                  <a href="#">メニューリンク3</a>
+                </li>
+              </ul>
+            </div>
+            <!--ここまでメニュー-->
+          </div>
           <div class="p-hero__count">
             <div class="p-hero__center">
               <figure class="p-hero__mainVisual">
+                <!-- <div class="menu-trigger"> 
+                  <a href="#top-nav" for="Hamburger" class="open">🍔</a>
+                </div>
+              <label for="Hamburger" class="return"></label>
+                <nav id="top-nav" class="nav-menu">
+                  <a href="#!" for="Hamburger" class="menu-close">×</a>
+                  <?php get_sidebar(); ?>
+                </nav> -->
                 <img class="is-pc" src="<?php echo get_template_directory_uri(); ?>-child/assets/img/jayeblue_pc_top.png">
               </figure>
             </div>
+            <?php echo do_shortcode('[contact-form-7 id="33" title="contactform_1"]'); ?>
           </div>
         </div>
       </div>

@@ -58,7 +58,7 @@
                     <a class="c-pcNav__list-link" href="https://www.youtube.com/channel/UCBNVZPlWoR7oArfzJNrK9yw" target="_blank"><span>MOVIE</span></a>
                   </li>
                   <li class="c-pcNav__list-item">
-                    <a class="c-pcNav__list-link" href="<?php echo get_template_directory_uri(); ?>-child/contact-page.php/"><span>アンケート</span></a>
+                    <a class="c-pcNav__list-link" href="./contact-a.php"><span>アンケート</span></a>
                   </li>
                   <li class="c-pcNav__list-item">
                     <a class="c-pcNav__list-link" href="https://yuurinchi.com" target="_blank"><span>MEMBERS</span></a>
