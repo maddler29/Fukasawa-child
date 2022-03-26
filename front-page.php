@@ -16,14 +16,12 @@
             <div class="menu-content">
               <ul>
                 <li>
-                  <a href="#">メニューリンク1</a>
+                  <a href="#">PROFILE</a>
                 </li>
                 <li>
-                  <a href="#">メニューリンク2</a>
+                  <a href="<?php echo home_url('contact'); ?>">SURVEY</a>
                 </li>
-                <li>
-                  <a href="#">メニューリンク3</a>
-                </li>
+
               </ul>
             </div>
             <!--ここまでメニュー-->
@@ -31,18 +29,13 @@
           <div class="p-hero__count">
             <div class="p-hero__center">
               <figure class="p-hero__mainVisual">
-                <!-- <div class="menu-trigger"> 
-                  <a href="#top-nav" for="Hamburger" class="open">🍔</a>
-                </div>
-              <label for="Hamburger" class="return"></label>
-                <nav id="top-nav" class="nav-menu">
-                  <a href="#!" for="Hamburger" class="menu-close">×</a>
-                  <?php get_sidebar(); ?>
-                </nav> -->
+
+                <?php get_sidebar(); ?>
+
                 <img class="is-pc" src="<?php echo get_template_directory_uri(); ?>-child/assets/img/jayeblue_pc_top.png">
               </figure>
             </div>
-            <div class="p-hero__right is-pc">
+            <!-- <div class="p-hero__right is-pc">
               <ul class="c-pcSns is-pc">
                 <li class="c-pcSns__item">
                   <a class="c-pcSns__link" href="https://www.instagram.com/p/CSazaV3MMqa/?utm_medium=copy_link" target="_blank"><span>
@@ -69,7 +62,7 @@
                     </span></a>
                 </li>
               </ul>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
