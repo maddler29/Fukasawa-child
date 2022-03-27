@@ -13,33 +13,35 @@ Template: fukasawa
 	box-sizing: border-box;
 }
 
+.contact7 li{
+	display: flex;
+	border-bottom: 1px solid #999;
+	margin: 0 0 25px 0;
+}
+
 .contact7 dt {
-	font-weight: normal;
-    font-size: 20px;
+	font-size: 20px;
     font-weight: 1000;
     line-height: 1.5;
-	margin: 0 0 5px 0;
+	min-width: 140px;
+	margin: 0 0 15px;
+	flex-grow: 1;
 }
 
 /* 入力枠 */.contact7 dd {
-	margin: 0 0 35px 0;
-	border-bottom: 1px solid #999;
+    flex-grow: 2;
 }
 .contact7 input[name="your-name"],
 .contact7 input[name="your-email"],
 .contact7 input[name="your-gender"],
-.contact7 input[name="your-nationality"],
-.contact7 input[name="your-apps"]{
-	border: none;
-	font-family: YakuHanJP,"游ゴシック", YuGothic, "Helvetica", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Arial, sans-serif;
-	font-size: 20px;
-	width: 100%;
-}
-
+.contact7 input[name="your-gender"] ~span,
+.contact7 select[name="your-nationality"],
+.contact7 input[name="your-apps"],
 .contact7 textarea[name="your-comments"]{
 	border: none;
+	color: #999;
 	font-family: YakuHanJP,"游ゴシック", YuGothic, "Helvetica", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Arial, sans-serif;
-	font-size: 20px;
+	font-size: 23px;
 	width: 100%;
 }
 
@@ -53,10 +55,10 @@ Template: fukasawa
 .contact7 .must,
 .contact7 .optional {
 	color: #FFF;
-	border-radius: 3px;
+	border-radius: 10px;
 	font-size: 11px;
 	margin-left: 10px;
-	padding: 5px 10px;
+	padding: 6px 10px;
 	letter-spacing: 1.5px;
 }
 
@@ -81,7 +83,9 @@ Template: fukasawa
 	-moz-transition: 0.3s;
 	-o-transition: 0.3s;
 	-ms-transition: 0.3s;
-	transition: 0.3s;	
+	transition: 0.3s;
+	margin-top: 5px;	
+	margin-bottom: 20px;	
 }
 .btn_contact7 input:hover {
 	background-color: #FFF;
@@ -89,15 +93,15 @@ Template: fukasawa
 }
 
 @media screen and (min-width: 900px){
-.contact7 dd {
-	margin: 0 auto;
-	margin-bottom:35px;
-	border-bottom: 1px solid #999;
-    width: 77.5%;
-}
 .contact7 dt {
-	margin: 0 auto;
+	margin: 0;
+	margin-bottom: 15px;
+	max-width: 220px;
 	width: 77.5%;
+}
+.contact7 dd {
+	margin: 0;
+	width: 100%;
 }
 .btn_contact7 {
 	margin: 0 auto;

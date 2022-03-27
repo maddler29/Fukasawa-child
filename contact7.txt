@@ -1,12 +1,36 @@
 ◆タブ：フォーム
 <dl class="contact7">
-<dd>[text* your-name placeholder"NAME"]</dd>
-<dd>[email* your-email placeholder"abcd@example.jp"]</dd>
-<dd>[text your-gender placeholder"GENDER"]</dd>
-<dd>[text your-nationality placeholder"NATIONALITY"]</dd>
-<dd>[text your-apps placeholder"Apps Name"]</dd>
-<dd>[textarea your-comments placeholder"COMMENTS"]</dd>
-<dt class="accept-this">[acceptance accept-this] 個人情報の取扱いに同意の上、送信します。[/acceptance]</dt>
+<li>
+<dt>Name<br><span class="must">Must</span></dt>
+<dd>[text* your-name placeholder"◆YOUR NAME◆"]</dd>
+</li>
+
+<li>
+<dt>MAIL<br><span class="must">Must</span></dt>
+<dd>[email* your-email placeholder"◆abcd@example.jp◆"]</dd>
+</li>
+
+<li>
+<dt>GENDER<br><span class="optional ">Optional</span></dt>
+<dd>[radio your-gender use_label_element default:0 "MALE" "FEMALE"]</dd>
+</li>
+
+<li>
+<dt>COUNTRY<br><span class="optional ">Optional</span></dt>
+<dd>[select your-nationality placeholder"◆Choose YOUR COUNTRY◆" "America""China""Korea""Japan"]</dd>
+</li>
+
+<li>
+<dt>Favorite SMS App<br><span class="optional ">Optional</span></dt>
+<dd>[text your-apps placeholder"◆App Name◆"]</dd>
+</li>
+
+<li>
+<dt>COMMENTS<br><span class="optional ">Optional</span></dt>
+<dd>[textarea your-comments placeholder"◆YOUR COMMENTS◆"]</dd>
+</li>
+
+<p class="accept-this">[acceptance accept-this] 個人情報の取扱いに同意の上、送信します。[/acceptance]</p>
 [response]
 <p class="btn_contact7">[submit "SEND"]</p>
 </dl>

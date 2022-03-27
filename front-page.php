@@ -9,60 +9,12 @@
       <div class="l-main">
         <div class="p-hero__inner">
           <?php get_sidebar(); ?>
-          <div class="hamburger-menu">
-            <input type="checkbox" id="menu-btn-check">
-            <label for="menu-btn-check" class="menu-btn"><span></span></label>
-            <!--ここからメニュー-->
-            <div class="menu-content">
-              <ul>
-                <li>
-                  <a href="#">PROFILE</a>
-                </li>
-                <li>
-                  <a href="<?php echo home_url('contact'); ?>">SURVEY</a>
-                </li>
-
-              </ul>
-            </div>
-            <!--ここまでメニュー-->
-          </div>
           <div class="p-hero__count">
             <div class="p-hero__center">
               <figure class="p-hero__mainVisual">
-
-                <?php get_sidebar(); ?>
-
                 <img class="is-pc" src="<?php echo get_template_directory_uri(); ?>-child/assets/img/jayeblue_pc_top.png">
               </figure>
             </div>
-            <!-- <div class="p-hero__right is-pc">
-              <ul class="c-pcSns is-pc">
-                <li class="c-pcSns__item">
-                  <a class="c-pcSns__link" href="https://www.instagram.com/p/CSazaV3MMqa/?utm_medium=copy_link" target="_blank"><span>
-                      <img class="is-not-ie" src="<?php echo get_template_directory_uri(); ?>-child/assets/img/sns/icon_instagram_w.png" alt="Instagram">
-                      <img class="is-ie" src="./assets/img/sns/icon_instagram.png" alt="Instagram">
-                    </span></a>
-                </li>
-                <li class="c-pcSns__item">
-                  <a class="c-pcSns__link" href="https://www.youtube.com/channel/UCUtG5J7RwFSw4DdTpE0p_6A/videos" target="_blank"><span>
-                      <img class="is-not-ie" src="<?php echo get_template_directory_uri(); ?>-child/assets/img/sns/icon_youtube_w.png" alt="YouTube">
-                      <img class="is-ie" src="./assets/img/sns/icon_youtube.png" alt="YouTube">
-                    </span></a>
-                </li>
-                <li class="c-pcSns__item">
-                  <a class="c-pcSns__link" href="https://twitter.com/yuuri_official" target="_blank"><span>
-                      <img class="is-not-ie" src="<?php echo get_template_directory_uri(); ?>-child/assets/img/sns/icon_twitter_w.png" alt="Twitter">
-                      <img class="is-ie" src="./assets/img/sns/icon_twitter.png" alt="Twitter">
-                    </span></a>
-                </li>
-                <li class="c-pcSns__item">
-                  <a class="c-pcSns__link" href="https://www.tiktok.com/@yuuri_music_official" target="_blank"><span>
-                      <img class="is-not-ie" src="<?php echo get_template_directory_uri(); ?>-child/assets/img/sns/icon_tiktok_w.png" alt="TikTok">
-                      <img class="is-ie" src="./assets/img/sns/icon_tiktok.png" alt="TikTok">
-                    </span></a>
-                </li>
-              </ul>
-            </div> -->
           </div>
         </div>
       </div>
@@ -85,7 +37,7 @@
               <?php endif; ?>
 
               <div class="p-news__more">
-                <a class="p-news__more-link" href="./news/"><span>MORE</span></a>
+                <a class="p-news__more-link" href="<?php echo home_url('newslist'); ?>"><span>MORE</span></a>
               </div>
             </ul>
           </div>
